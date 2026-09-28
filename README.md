@@ -1,6 +1,8 @@
 # It_runs_doom_notepad-
 a plugin for notepad++ (both x32 &amp;x64)
 # Doom Launcher for Notepad++
+For example you can download chocolate Doom by link:
+https://www.chocolate-doom.org/wiki/index.php/Chocolate_Doom
 
 This plugin adds a **Plugins → Doom Launcher → Launch Doom...** menu item to Notepad++.
 It prompts you to select a game WAD and launches it using a genuine Doom-compatible engine in a separate
@@ -14,31 +16,6 @@ graphical window. It does not use character-based or ASCII graphics.
 
 The plugin itself does not distribute Doom, the engine, or copyrighted game data.
 
-## Building
-
-You need Visual Studio 2022 Build Tools with the **Desktop development with C++** component and CMake.
-The repository also includes a GitHub Actions workflow that builds both architectures and
-publishes the resulting DLLs as build artifacts.
-
-### 64-bit Notepad++
-
-```powershell
-cmake -S . -B build-x64 -A x64
-cmake --build build-x64 --config Release
-```
-
-Resulting file: `build-x64/Release/DoomLauncher.dll`.
-
-### 32-bit Notepad++
-
-```powershell
-cmake -S . -B build-x86 -A Win32
-cmake --build build-x86 --config Release
-```
-
-The DLL architecture must match the Notepad++ architecture.
-
-## Installation
 
 1. Close Notepad++.
 2. Create a folder named `DoomLauncher` inside the `plugins` directory of your Notepad++ installation.
@@ -72,6 +49,8 @@ The plugin source code is distributed under the MIT License. Doom is a trademark
 Плагин добавляет в Notepad++ меню **Плагины → Doom Launcher → Запустить Doom...**.
 Он просит выбрать игровой WAD и запускает его настоящим Doom-совместимым движком в отдельном
 графическом окне. Символьная/ASCII-графика не используется.
+Для примера можно скачатьChocolate Doom по ссылке:
+https://www.chocolate-doom.org/wiki/index.php/Chocolate_Doom
 
 ## Что потребуется
 
@@ -81,29 +60,6 @@ The plugin source code is distributed under the MIT License. Doom is a trademark
 
 Сам плагин не распространяет Doom, движок или защищённые авторским правом игровые данные.
 
-## Сборка
-
-Нужны Visual Studio 2022 Build Tools с компонентом **Desktop development with C++** и CMake.
-Репозиторий также содержит GitHub Actions workflow, который собирает обе разрядности и
-публикует готовые DLL как артефакты запуска.
-
-### 64-разрядный Notepad++
-
-```powershell
-cmake -S . -B build-x64 -A x64
-cmake --build build-x64 --config Release
-```
-
-Готовый файл: `build-x64/Release/DoomLauncher.dll`.
-
-### 32-разрядный Notepad++
-
-```powershell
-cmake -S . -B build-x86 -A Win32
-cmake --build build-x86 --config Release
-```
-
-Разрядность DLL должна совпадать с разрядностью Notepad++.
 
 ## Установка
 
