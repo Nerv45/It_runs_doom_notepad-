@@ -1,6 +1,6 @@
 # It_runs_doom_notepad-
 a plugin for notepad++ (both x32 &amp;x64)
-a separate ZIP folder with source code
+& a separate ZIP folder with source code
 # Doom Launcher for Notepad++
 For example you can download chocolate Doom by link:
 https://www.chocolate-doom.org/wiki/index.php/Chocolate_Doom
