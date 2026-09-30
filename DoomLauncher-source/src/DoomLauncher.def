@@ -1,0 +1,9 @@
+LIBRARY "DoomLauncher"
+EXPORTS
+    isUnicode
+    setInfo
+    getName
+    getFuncsArray
+    beNotified
+    messageProc
+
