@@ -1,0 +1,88 @@
+DOOM LAUNCHER FOR NOTEPAD++ x64
+INSTALLATION AND LAUNCH INSTRUCTIONS
+===================================
+
+ENGLISH
+-------
+
+Requirements:
+1. A 64-bit version of Notepad++.
+2. A Doom-compatible engine, for example GZDoom, Chocolate Doom,
+   Crispy Doom, DSDA-Doom, or Woof.
+3. A legally obtained Doom IWAD, for example DOOM.WAD or the
+   shareware DOOM1.WAD.
+
+Installation:
+1. Close Notepad++.
+2. Open the folder where Notepad++ is installed. It is usually:
+   C:\Program Files\Notepad++
+3. Inside the "plugins" folder, create a folder named:
+   DoomLauncher
+4. Copy DoomLauncher.dll into that folder.
+
+The resulting path must be:
+   C:\Program Files\Notepad++\plugins\DoomLauncher\DoomLauncher.dll
+
+If Windows asks for administrator permission, approve the copy operation.
+
+Launching Doom:
+1. Start Notepad++.
+2. Open Plugins > Doom Launcher > Launch Doom...
+   The menu commands themselves are displayed in Russian:
+   Plugins > Doom Launcher > Запустить Doom...
+3. On the first launch, select the executable file of your Doom engine,
+   for example gzdoom.exe or chocolate-doom.exe.
+4. Select DOOM.WAD or DOOM1.WAD.
+5. Doom will open in a separate graphical window.
+
+To change the engine later, use:
+   Plugins > Doom Launcher > Выбрать движок...
+
+Important:
+- This DLL works only with 64-bit Notepad++.
+- The plugin does not contain Doom, an engine, or WAD game data.
+- A PWAD is a modification and cannot be launched as a standalone game.
+
+
+DOOM LAUNCHER ДЛЯ NOTEPAD++ x64
+ИНСТРУКЦИЯ ПО УСТАНОВКЕ И ЗАПУСКУ
+=================================
+
+РУССКИЙ
+-------
+
+Необходимо:
+1. 64-разрядная версия Notepad++.
+2. Doom-совместимый движок, например GZDoom, Chocolate Doom,
+   Crispy Doom, DSDA-Doom или Woof.
+3. Законно полученный Doom IWAD, например DOOM.WAD или бесплатный
+   shareware-файл DOOM1.WAD.
+
+Установка:
+1. Закройте Notepad++.
+2. Откройте папку установки Notepad++. Обычно это:
+   C:\Program Files\Notepad++
+3. Внутри папки "plugins" создайте папку:
+   DoomLauncher
+4. Скопируйте DoomLauncher.dll в созданную папку.
+
+Итоговый путь должен выглядеть так:
+   C:\Program Files\Notepad++\plugins\DoomLauncher\DoomLauncher.dll
+
+Если Windows запросит права администратора, разрешите копирование.
+
+Запуск Doom:
+1. Запустите Notepad++.
+2. Откройте Плагины > Doom Launcher > Запустить Doom...
+3. При первом запуске выберите EXE-файл Doom-совместимого движка,
+   например gzdoom.exe или chocolate-doom.exe.
+4. Выберите DOOM.WAD или DOOM1.WAD.
+5. Doom откроется в отдельном графическом окне.
+
+Чтобы впоследствии изменить движок, выберите:
+   Плагины > Doom Launcher > Выбрать движок...
+
+Важно:
+- Эта DLL работает только с 64-разрядным Notepad++.
+- Плагин не содержит Doom, игровой движок или WAD-файлы.
+- PWAD является модификацией и не запускается как самостоятельная игра.
