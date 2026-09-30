@@ -2,6 +2,8 @@
 a plugin for notepad++ (both x32 &amp;x64)
 & a separate ZIP folder with source code
 # Doom Launcher for Notepad++
+Feel free to see my video instruction on my YouTube channel:
+https://www.youtube.com/watch?v=c5ZejRRrpLs
 For example you can download chocolate Doom by link:
 https://www.chocolate-doom.org/wiki/index.php/Chocolate_Doom
 
